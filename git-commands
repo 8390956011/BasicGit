@@ -1,0 +1,17 @@
+git clone $repository-https-url
+git pull
+git add .
+git commit -m "$msg"
+git push
+git remote add origin $repository-https-url
+git init
+git merge
+git log -n 2
+git status
+git branch
+git tag
+git checkout $branchname
+git checkout $tagname
+git branch $newbranchname
+git tag #newtagname
+git checkout -b $newbranchname
